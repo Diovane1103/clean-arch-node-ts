@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1674178882370" clover="3.2.0">
-  <project timestamp="1674178882370" name="All files">
-    <metrics statements="125" coveredstatements="86" conditionals="24" coveredconditionals="17" methods="15" coveredmethods="8" elements="164" coveredelements="111" complexity="0" loc="125" ncloc="125" packages="6" files="13" classes="13"/>
-    <package name="domain.models">
-      <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="account.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/domain/models/account.ts">
-        <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="domain.useCases">
-      <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="add-account.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/domain/useCases/add-account.ts">
-        <metrics statements="11" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="presentation.controllers.signup">
-      <metrics statements="52" coveredstatements="48" conditionals="12" coveredconditionals="11" methods="3" coveredmethods="2"/>
-      <file name="signup-protocols.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/controllers/signup/signup-protocols.ts">
-        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-      </file>
+<coverage generated="1674179966840" clover="3.2.0">
+  <project timestamp="1674179966840" name="All files">
+    <metrics statements="86" coveredstatements="86" conditionals="17" coveredconditionals="17" methods="8" coveredmethods="8" elements="111" coveredelements="111" complexity="0" loc="86" ncloc="86" packages="3" files="6" classes="6"/>
+    <package name="controllers.signup">
+      <metrics statements="48" coveredstatements="48" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/controllers/signup/signup.ts">
         <metrics statements="48" coveredstatements="48" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -92,7 +56,7 @@
         <line num="48" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="presentation.errors">
+    <package name="errors">
       <metrics statements="21" coveredstatements="21" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/errors/index.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -128,7 +92,7 @@
         <line num="6" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="presentation.helpers">
+    <package name="helpers">
       <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="http-helper.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/helpers/http-helper.ts">
         <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
@@ -149,39 +113,6 @@
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="presentation.protocols">
-      <metrics statements="18" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-      <file name="controller.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/protocols/controller.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-      <file name="email-validator.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/protocols/email-validator.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-      </file>
-      <file name="http.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/protocols/http.ts">
-        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-      </file>
-      <file name="index.ts" path="/home/diovane/www/udemy/clean-arch-node-ts/src/presentation/protocols/index.ts">
-        <metrics statements="2" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="2" count="0" type="stmt"/>
       </file>
     </package>
   </project>
